@@ -4,10 +4,21 @@
 
 .call-to-action{
     display: flex;
-//    align-content: center;
+    justify-content: space-around;
     margin: 3rem;
     padding: 2rem;
-    border: @outline;
+    background-color: lighten(@forest, 60%);
+}
+.call-to-action .landing-img img{
+  width: 400px;
+  height: 550px;
+}
+
+.cta-text{
+    border: 5px solid @white;
+    width: 400px;
+    height: 550px;
+    padding: 3rem;
 }
 
 .cta-text h2{
@@ -20,6 +31,7 @@
 
 .cta-text .sign-up {
     margin: 0 0 5rem;
+    padding: .5rem;
 }
 .cta-text .sign-up a{
     text-decoration: none;
@@ -35,6 +47,7 @@
 
 .cta-text .sign-in {
     margin: 0 0 5rem;
+    padding: .5rem;
 }
 
 .cta-text .sign-in a:hover{
@@ -54,4 +67,28 @@
         color: @gray;
         width: 95%;
 
+    }
+
+
+   .steps-cta h2 {
+        font-size: 4.2rem;
+        line-height: 1.25;
+        color: @forest; 
+        font-weight: bold;
+        margin:  3rem;
+      }
+
+    .steps{
+        display: flex;
+        justify-content: space-around;
+        background-color: @gray;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    h4 {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        padding: 2rem 2rem;
     }

@@ -146,6 +146,10 @@ h3 {
   color: #2e765e;
   font-weight: 600;
 }
+h4 {
+  font-size: 2.8rem;
+  color: #2e765e;
+}
 p {
   font-size: 1.6rem;
   line-height: 1.4;
@@ -165,21 +169,43 @@ header nav a {
 header nav a:hover {
   color: #2e765e;
 }
+footer {
+  padding: 2rem 2rem;
+  margin: 2rem;
+}
+footer .contact h3 {
+  margin: 0 0 1rem;
+}
+footer .contact h3 p {
+  line-height: 1;
+}
 footer .copyright {
   display: flex;
   justify-content: center;
 }
 footer .copyright p {
   color: #2e765e;
+  font-size: 1.7rem;
 }
 .title h1 {
   color: #2e765e;
 }
 .call-to-action {
   display: flex;
+  justify-content: space-around;
   margin: 3rem;
   padding: 2rem;
-  border: 1px solid green;
+  background-color: #e2f4ee;
+}
+.call-to-action .landing-img img {
+  width: 400px;
+  height: 550px;
+}
+.cta-text {
+  border: 5px solid #fafffe;
+  width: 400px;
+  height: 550px;
+  padding: 3rem;
 }
 .cta-text h2 {
   margin: 0 0 2rem;
@@ -189,6 +215,7 @@ footer .copyright p {
 }
 .cta-text .sign-up {
   margin: 0 0 5rem;
+  padding: 0.5rem;
 }
 .cta-text .sign-up a {
   text-decoration: none;
@@ -202,6 +229,7 @@ footer .copyright p {
 }
 .cta-text .sign-in {
   margin: 0 0 5rem;
+  padding: 0.5rem;
 }
 .cta-text .sign-in a:hover {
   background-color: #2e765e;
@@ -216,4 +244,24 @@ footer .copyright p {
 hr {
   color: #f6f7f9;
   width: 95%;
+}
+.steps-cta h2 {
+  font-size: 4.2rem;
+  line-height: 1.25;
+  color: #2e765e;
+  font-weight: bold;
+  margin: 3rem;
+}
+.steps {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6f7f9;
+  max-width: 95%;
+  margin: 0 auto;
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding: 2rem 2rem;
 }
