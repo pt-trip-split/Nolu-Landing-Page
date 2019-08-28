@@ -169,6 +169,15 @@ header nav a {
 header nav a:hover {
   color: #2e765e;
 }
+header nav .title {
+  display: flex;
+}
+header nav .title img {
+  height: 9%;
+  width: 9%;
+  margin-left: 10px;
+  margin-top: 8px;
+}
 footer {
   padding: 2rem 2rem;
   margin: 2rem;
